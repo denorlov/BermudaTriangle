@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons+Outlined");
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wdth,wght@0,18..144,87..112,300..900;1,18..144,87..112,300..900&display=swap');
 
 /* =============================================================================
@@ -404,3 +406,12 @@ body.dark {
    }
    
    ============================================================================= */
+
+/* Ensure outlined ligature icons have a matching hosted font available. */
+.nav-icon,
+.panel-close-bottom .material-icons-outlined,
+.settings-tab .material-icons-outlined,
+.error-modal-icon,
+.tone-icon.material-icons {
+  font-family: "Material Icons Outlined", "Material Icons", sans-serif;
+}

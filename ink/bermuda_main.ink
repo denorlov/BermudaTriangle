@@ -1,8 +1,7 @@
 # TITLE: Пропавшие в Бермудах
-# AUTHOR: Денис Орлов
+
 # CHOICE_NUMBERS: off
-# AUTOCLEAR: on
-# IMAGE: assets/icon.jpg
+# AUTO_CLEAR: on
 
 INCLUDE bermuda_intro.ink
 INCLUDE bermuda_team.ink
