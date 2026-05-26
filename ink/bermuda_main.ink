@@ -3,8 +3,16 @@
 # CHOICE_NUMBERS: off
 # AUTO_CLEAR: on
 
+# TONE_INDICATORS: on
+# TONE: fire local_fire_department
+# TONE: fav favorite
+# TONE: star star
+# TONE: sarcasm 😏
+# TONE: warning warning
+
 INCLUDE bermuda_intro.ink
 INCLUDE bermuda_team.ink
 INCLUDE bermuda_chapter_1.ink
 
 -> intro
+//-> chapter_1
