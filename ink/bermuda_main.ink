@@ -13,6 +13,7 @@
 INCLUDE bermuda_intro.ink
 INCLUDE bermuda_team.ink
 INCLUDE bermuda_chapter_1.ink
+INCLUDE bermuda_chapter_2.ink
 
--> intro
-//-> chapter_1
+//-> intro
+-> chapter_1
