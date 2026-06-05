@@ -1,5 +1,5 @@
 ﻿<!doctype html>
-<html lang="en">
+<html lang="ru">
   <head>
     <meta charset="utf-8" />
     <title class="title"></title>
@@ -25,15 +25,15 @@
   </head>
 
   <body>
-    <!-- Loading screen - hidden after story initializes -->
+    <!-- Экран загрузки: скрывается после инициализации истории -->
     <div id="loading-screen" class="loading-screen" aria-live="polite">
       <div class="loading-content">
-        <div class="loading-spinner" aria-label="Loading story"></div>
+        <div class="loading-spinner" aria-label="Загрузка истории"></div>
       </div>
     </div>
-    <a href="#story" class="skip-link">Skip to story content</a>
-    <!-- Top navigation bar -->
-    <nav class="top-nav" aria-label="Story">
+    <a href="#story" class="skip-link">Перейти к тексту истории</a>
+    <!-- Верхняя панель навигации -->
+    <nav class="top-nav" aria-label="История">
       <div class="nav-title-section">
         <div class="nav-title-wrapper">
           <h1 class="nav-title title"></h1>
@@ -51,7 +51,7 @@
         <button
           id="rewind"
           type="button"
-          aria-label="Restart story"
+          aria-label="Начать историю заново"
           aria-keyshortcuts="Control+r"
         >
           <span class="material-icons-outlined nav-icon" aria-hidden="true"
@@ -61,7 +61,7 @@
         <button
           id="saves-btn"
           type="button"
-          aria-label="Saves"
+          aria-label="Сохранения"
           aria-keyshortcuts="Control+s"
         >
           <span class="material-icons-outlined nav-icon" aria-hidden="true"
@@ -71,7 +71,7 @@
         <button
           id="settings-btn"
           type="button"
-          aria-label="Settings"
+          aria-label="Настройки"
           aria-keyshortcuts="Control+,"
         >
           <span class="material-icons-outlined nav-icon" aria-hidden="true"
@@ -81,11 +81,11 @@
       </div>
     </nav>
     <main class="outerContainer" id="main-content" aria-busy="true">
-      <!-- Story container -->
+      <!-- Контейнер истории -->
       <div
         id="story"
         role="region"
-        aria-label="Story content"
+        aria-label="Текст истории"
         class="container"
         tabindex="-1"
       ></div>
