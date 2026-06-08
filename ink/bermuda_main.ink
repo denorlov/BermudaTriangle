@@ -9,6 +9,7 @@
 # TONE: star star
 # TONE: sarcasm 😏
 # TONE: warning warning
+# TONE: ptr east
 
 INCLUDE bermuda_intro.ink
 INCLUDE bermuda_team.ink
@@ -16,7 +17,7 @@ INCLUDE bermuda_chapter_1.ink
 INCLUDE bermuda_chapter_2.ink
 INCLUDE test.ink
 
-//-> intro
--> chapter_1
+-> intro
+//-> chapter_1
 //-> chapter_2
 //-> test

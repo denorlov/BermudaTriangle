@@ -8,6 +8,7 @@
 + [Джессика. Инженер-математик] -> team.engineer
 + [Кай. Биолог-океанолог] -> team.biologist
 + [Джейк. Химик-медик] -> team.chemist
++ {chemist && engineer && biologist && geophysicist} [Глава 1. Сборы #ptr] -> chapter_1
 
 = chemist
 :: Джейк. Химик-медик
@@ -25,8 +26,7 @@
 Кай: "Не стреляй, это редкий вид!"
 Джейк: "Если редкий вид пытается нас съесть - это исключение."
 
-+ {not(chemist && engineer && biologist && geophysicist)}[Команда #star] -> team.overview
-+ {chemist && engineer && biologist && geophysicist} [Глава 1. Сборы] -> chapter_1
++ [Команда #ptr] -> team.overview
 
 = engineer
 
@@ -48,8 +48,7 @@
 Кай: "Ты заметила, что орешь уже третий час?"
 Джессика: "Я не ору. Это организация слаженной командной работы... Работаем дальше."
 
-+ {not(chemist && engineer && biologist && geophysicist)}[Команда #star] -> team.overview
-+ {chemist && engineer && biologist && geophysicist}[Глава 1. Сборы] -> chapter_1
++ [Команда #ptr] -> team.overview
 
 = biologist
 
@@ -77,8 +76,7 @@
 Джессика: "Это просто камни."
 Кай: "Нет. Это коралл, которому двести лет. И он показывает течение."
 
-+ {not(chemist && engineer && biologist && geophysicist)}[Команда #star] -> team.overview
-+ {chemist && engineer && biologist && geophysicist} [Глава 1. Сборы] -> chapter_1
++ [Команда #ptr] -> team.overview
 
 = geophysicist
 
@@ -109,5 +107,4 @@
 Она вдруг громко хохочет: "Ну наконец-то! А то скучно было!"
 И всем одновременно смешно и страшно.
 
-+ {not(chemist && engineer && biologist && geophysicist)}[Команда #star] -> team.overview
-+ {chemist && engineer && biologist && geophysicist} [Глава 1. Сборы] -> chapter_1
++ [Команда #ptr] -> team.overview
