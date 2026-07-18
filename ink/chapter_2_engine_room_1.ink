@@ -30,8 +30,11 @@ VAR cubic_tried_456 = false
 
 Ответа не было. Только слабый, почти неуловимый запах — не масла, не топлива… Что-то иное. Чуть сладковатое. Чуть металлическое. И… чужое.
 
+- (entry_menu)
 + #ptr [Спустится в трюм] -> engine_room_1.Трюм
-+ #ptr [Вернутся на палубу яхты] -> chapter_2.room_choises
++ #ptr [Вернутся на палубу яхты]
+    ~ engine_room_resume = -> engine_room_1
+    -> chapter_2.room_choises
 
 = Трюм
 
@@ -88,7 +91,6 @@ VAR cubic_tried_456 = false
 — Ладно. Хватит на него смотреть, как на призрака.
 
 + [Дальше...] -> code_enter
-+ #ptr [Вернутся на палубу яхты] -> chapter_2.room_choises
 
 = code_enter
 
@@ -143,7 +145,9 @@ VAR cubic_tried_456 = false
 Джейк усмехнулся. Они стояли рядом. Лист в руках. Ящик перед ними. И вдруг всё стало логичным. Слишком логичным.
 
 + [Введите код доступа...] -> cubic_code_input
-+ #ptr [Вернутся на палубу яхты] -> chapter_2.room_choises
++ #ptr [Вернутся на палубу яхты]
+    ~ engine_room_resume = -> engine_room_1.code_enter
+    -> chapter_2.room_choises
 
 = cubic_code_input
 
@@ -206,7 +210,9 @@ VAR cubic_tried_456 = false
 }
 
 + [Ввести код ещё раз] -> cubic_code_input
-+ #ptr [Вернутся на палубу яхты] -> chapter_2.room_choises
++ #ptr [Вернутся на палубу яхты]
+    ~ engine_room_resume = -> engine_room_1.cubic_code_input
+    -> chapter_2.room_choises
 
 = cubic_right_answer
 # CLEAR
