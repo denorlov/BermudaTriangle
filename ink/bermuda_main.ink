@@ -19,6 +19,6 @@ INCLUDE chapter_2_engine_room_1.ink
 INCLUDE chapter_2_engine_room_2.ink
 INCLUDE chapter_2_engine_room_3.ink
 
-//-> intro
+-> intro
 //-> chapter_1
--> chapter_2
+//-> chapter_2
