@@ -15,9 +15,10 @@ INCLUDE bermuda_intro.ink
 INCLUDE bermuda_team.ink
 INCLUDE bermuda_chapter_1.ink
 INCLUDE bermuda_chapter_2.ink
-INCLUDE test.ink
+INCLUDE chapter_2_engine_room_1.ink
+INCLUDE chapter_2_engine_room_2.ink
+INCLUDE chapter_2_engine_room_3.ink
 
 -> intro
 //-> chapter_1
 //-> chapter_2
-//-> test
