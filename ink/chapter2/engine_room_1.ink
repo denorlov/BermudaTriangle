@@ -187,6 +187,10 @@ VAR cubic_tried_456 = false
 }
 
 { cubic_code == "654":
+    { cubic_attempts <= 2:
+        # CLEAR
+        -> enter_code
+    }
     -> cubic_right_answer
 - else:
     -> cubic_wrong_code_feedback
