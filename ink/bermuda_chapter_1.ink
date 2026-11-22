@@ -132,7 +132,7 @@ Cекретный код: * * + * = * * 8
 
 = incorrect_code
 
-{ retries_count == 2:
+{ retries_count == 1:
 На экране отобразилось:
 
 # CLASS: old-paper
