@@ -18,7 +18,21 @@ INCLUDE bermuda_chapter_2.ink
 INCLUDE chapter2/engine_room_1.ink
 INCLUDE chapter2/engine_room_2.ink
 INCLUDE chapter2/engine_room_3.ink
+INCLUDE chapter2/capitan_room.ink
+INCLUDE chapter2/passanger4_room_1.ink
+INCLUDE chapter2/auction.ink
+INCLUDE chapter2/passanger4_room_2.ink
+INCLUDE chapter2/mad_joe_journal_1.ink
+INCLUDE chapter2/mad_joe_journal_2.ink
 
 //-> intro
 //-> chapter_1
 -> chapter_2
+
+===next===
++ [Далее…]
+- ->->
+
+===forward===
++ [Вперед]
+- ->->
