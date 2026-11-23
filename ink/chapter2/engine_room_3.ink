@@ -91,7 +91,7 @@ VAR engine_room_3_hint = 0
     — Тот кто знает дорогу умеет говорить. А тот, кто умеет говорить, не боится темноты. Варан боится темноты. Может ли он подходить под оба условия?
 }
 
-+ [Попробовать еще раз] -> animal_choices
++ #ptr [Попробовать еще раз] -> animal_choices
 + #ptr [Вернутся на палубу яхты]
     ~ engine_room_resume = -> engine_room_3.animal_choices
     -> chapter_2.room_choises
